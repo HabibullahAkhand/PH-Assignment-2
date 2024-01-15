@@ -1,5 +1,50 @@
 /* common property */
-*{
+* {
     margin: 0;
     padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+
+/* nav section */
+.nav-container {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-container h2 {
+    display: flex;
+    gap: 17px;
+    margin: 50px 0;
+    align-items: center;
+    color: #131318;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+.nav-container span {
+    color: #FF5400;
+}
+.nav-container img {
+    width: 48px;
+    height: 56.008px;
+}
+.nav-section {
+    display: flex;
+    list-style: none;
+    gap: 44px;
+    margin: 63px 0px;
+}
+
+.nav-container a {
+    text-decoration: none;
+    color: #424247;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+ul span {
+    color: #FF5400;
+    font-weight: 700;
 }
