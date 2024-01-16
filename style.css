@@ -6,8 +6,7 @@
 }
 
 .primary-btn-1 {
-    width: 174px;
-    height: 52px;
+    padding: 12px 20px;
     border-radius: 8px;
     background: #FF5400;
     display: flex;
@@ -79,7 +78,14 @@ ul span {
     color: #FF5400;
     font-weight: 700;
 }
-
+.go{
+    padding: 15px 20px;
+    border-radius: 8px;
+}
+.banner-select>select{
+    padding: 15px 20px;
+    border-radius: 8px;
+}
 /* banner section */
 /* .banner-container {
     max-width: 1170px;
@@ -763,12 +769,16 @@ p {
         gap: 24px;
         border-radius: 8px;
         background: rgba(255, 255, 255, 0.30);
+        justify-content: center;
+    }
+    .search-icon{
+        color: white;
     }
 
-    .whereGo>input,
+    /* .whereGo>input,
     .banner-select>select {
         width: 174px;
-        /* height: 52px; */
+        height: 52px;
         border-radius: 8px;
         background: #FFF;
         color: rgba(19, 19, 24, 0.50);
@@ -776,7 +786,8 @@ p {
         font-weight: 400;
         padding: 16px;
         border: none;
-    }
+    } */
+    
 
     .whereGo input::placeholder {
         color: rgba(19, 19, 24, 0.50);

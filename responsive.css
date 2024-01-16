@@ -74,8 +74,31 @@
         font-size: 14px;
     }
 
+    .banner-from{
+        padding: 20px 60px;
+        background: rgba(255, 255, 255, 0.30);
+        margin: 0px 90px;
+        border-radius: 16px;
+    }
+    
+    .go{
+        width: 82%;
+        margin-bottom: 10px;
+    }
+    .banner-select>select{
+        /* display: flex;
+        flex-direction: column; */
+        width: 100%;
+    }
+    .winter{
+        margin-bottom: 10px;
+    }
+    .India{
+        margin-bottom: 10px;
+    }
+
     /* banner form section */
-    .banner-from {
+    /* .banner-from {
         display: flex;
         height: 288px;
         width: 287px;
@@ -84,18 +107,20 @@
         gap: 16px;
         margin: 0px auto;
 
-    }
+    } */
 
-    .all-from {
-        /* display: flex   ; */
+    /* .all-from {
+        display: flex   ;
         border-radius: 8px;
         background: rgba(255, 255, 255, 0.30);
         display: flex;
         flex-direction: column;
         gap: 8px;
-    }
-
-    .whereGo>input,
+    } */
+/* .banner-select{
+    width: 100%;
+} */
+    /* .whereGo>input,
     .banner-select>select {
         width: 250px;
         height: 52px;
@@ -106,9 +131,9 @@
         font-weight: 400;
         padding: 16px;
         border: none;
-    }
+    } */
 
-    .whereGo input::placeholder {
+    /* .whereGo input::placeholder {
         color: rgba(19, 19, 24, 0.50);
         font-size: 16px;
         font-weight: 400;
@@ -119,7 +144,7 @@
 
     .banner-from .whereGo {
         width: 255px;
-    }
+    } */
 
     /*tour section */
     .tour-section {
