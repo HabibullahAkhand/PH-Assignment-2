@@ -81,6 +81,7 @@ ul span {
 .go{
     padding: 15px 20px;
     border-radius: 8px;
+    border: none;
 }
 .banner-select>select{
     padding: 15px 20px;
